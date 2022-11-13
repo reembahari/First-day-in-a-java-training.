@@ -3,24 +3,34 @@ public class Main {
         /*
         this is multi comment
          */
-         String name="reem";
-         int age=26;
-        System.out.println("the first lab"+"  "+name+"  "+age);//this is name
-        int val1=6;
-        int val2=3;
-        int sum;
-        boolean x;
-        boolean x1;
-        boolean x2;
-        sum=val1+val2;
-        sum=sum-2;
-        sum=sum%3;
-        sum=sum*4;
-        x=val1>val2;
-        x1=val1==val2;
-        System.out.println(x);
-        System.out.println(x1);
-        System.out.println(x&&x1);
-        int y= 5;
-        System.out.println(y>3 && y<10);
-        System.out.println(!(y>3 && y<10));
+        String name = "reem bahari";//this is my full name
+        System.out.println(name);
+        int myage = 26;
+        System.out.println(myage);//this is my age
+        int value1 = 4;
+        int value2 = 2;
+        int sum = value1 + value2;
+        System.out.println(sum);//this is sum of two value
+        System.out.println(sum/2);//this is the Dividing of two value
+        double width=7;
+        double high=5;
+        double constant=2;
+        System.out.println((width+high)*2);//this is the Calculate the area of a rectangle
+        double num1=45;
+        double num2=23;
+        System.out.println(num1==num2);//this is a comparison of two values
+       int A=70;
+        int B=55;
+        System.out.println(A<50&&A<B);//this is a comparison between two values using the logical "and"
+        System.out.println(A<50||A<B);//this is a comparison between two values using the logical "or"
+
+
+
+
+
+
+
+
+
+    }
+}
